@@ -1,31 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
+
 <body>
     <section class="navbar-section">
         <nav>
             <div class="wrapper-main">
-            <div class="navbar-logo">
-                <p>Pisen.</p>
-            </div>
-            <div class="navbar-menu">
-                <ul>
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="icons-navbar"></div>
-
+                <div class="navbar-logo">
+                    <p>Pisen<span class="dot-color">.</span></p>
+                </div>
+                
+                <input type="checkbox" name="menu" id="menu-res">
+                <div class="navbar-menu">
+                    <ul>
+                        <li><a href="#" class="actived">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="icons-navbar">
+                    <a href=""><img src="/img/search.png" alt="search-logo"></a>
+                    <span class="line-icon">|</span>
+                    <div class="nav-menu-icons">   
+                        <a href=""><img src="/img/facebook.png" alt="facebook-logo"></a>
+                        <a href=""><img src="/img/twitter.png" alt="twitter-logo"></a>
+                        <a href=""><img src="/img/instagram.png" alt="instagram-logo"></a>
+                        <a href="" target="_blank"><img src="/img/dribbble-logo.png" alt="dribbble-logo"></a>
+                    </div>
+                    <label for="menu-res">
+                    <div class="menu-responsive"><a><img src="/img/list.png" alt="menu-responsive"></a>
+                    </div>
+                     </label>
+                </div>
             </div>
         </nav>
-    
+    </section>
+
+
+    <div class="container">
+        <section class="main">
+            <div class="basic-image">
+                <img src="" alt="">
+            </div>
+            <div class="description-container">
+                <h2 class="image-title">North Dakota Learns From Norway</h2>
+                <div class="description">
+                    <div class="description-title">
+                        <div class="simple-image"><img src="" alt=""></div>
+                        <p class=" name-autor">Lucas Norman</p>
+                        <p class="date">february 17, 2019</p>
+                        <p class="hashtag">#tech</p>
+                    </div>
+                    <p class="description-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, autem provident quia ad
+                        blanditiis fugit eaque doloremque similique quam necessitatibus porro, assumenda nostrum
+                        voluptatem.
+                        Odio harum aut possimus ea laudantium.
+                    </p>
+                </div>
+            </div>
         </section>
+        <section class="carrousel">
+            <section class="main">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <img src="" style="width:100%">
+                        <div class="text">1</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="" style="width:100%">
+                        <div class="text">2</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="" style="width:100%">
+                        <div class="text">3</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+                <div class="description-container">
+                    <h2 class="image-title">10 States At Risk of Rural Hospital Closures</h2>
+                    <div class="description">
+                        <div class="description-title">
+                            <div class="simple-image"><img src="" alt=""></div>
+                            <p class=" name-autor">Connor Cooper</p>
+                            <p class="date">february 17, 2019</p>
+                            <p class="hashtag">#tech</p>
+                        </div>
+                        <p class="description-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, autem provident quia ad
+                            blanditiis fugit eaque doloremque similique quam necessitatibus porro, assumenda nostrum
+                            voluptatem.
+                            Odio harum aut possimus ea laudantium.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section-three">
+            <section class="main-three">
+                <div class="three-image">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="description-container">
+                    <h2 class="image-title">US Interventions In Latin America, In Photos</h2>
+                    <div class="description">
+                        <div class="description-title">
+                            <div class="simple-image"><img src="" alt=""></div>
+                            <p class=" name-autor">Connor Cooper</p>
+                            <p class="date">february 17, 2019</p>
+                            <p class="hashtag">#tech</p>
+                        </div>
+                        <p class="description-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, autem provident quia ad
+                            blanditiis fugit eaque doloremque similique quam necessitatibus porro, assumenda nostrum
+                            voluptatem.
+                            Odio harum aut possimus ea laudantium.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <div class="video-frame">
+                    <pre><div class="video-responsive">
+                        <iframe  src="https://www.youtube.com/embed/MJfBQWn1vck" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                    <pre>
+                    </div>
+                    <div class="description-container">
+                        <h2 class="image-title">2019 Best Cars for the Money</h2>
+                        <div class="description">
+                            <div class="description-title">
+                            <div class="simple-image"><img src="" alt=""></div>
+                            <p class=" name-autor">Russell Yates</p>
+                            <p class="date">february 17, 2019</p>
+                            <p class="hashtag">#tech</p>
+                        </div>
+                        <p class="description-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, autem provident quia ad
+                            blanditiis fugit eaque doloremque similique quam necessitatibus porro, assumenda nostrum
+                            voluptatem.
+                            Odio harum aut possimus ea laudantium.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="audio">
+                <div class="audio-image">
+                    <audio src="./mp3/bensound-clearday.mp3" controls> este es un elemento de audio no soportado por tu navegador, prueba con otro </audio>
+                </div>
+                <div class="description-container">
+                    <h2 class="image-title">How to View Breast Cancer Survival Rates</h2>
+                    <div class="description">
+                        <div class="description-title">
+                            <div class="simple-image"><img src="" alt=""></div>
+                            <p class=" name-autor">Russell Yates</p>
+                            <p class="date">february 17, 2019</p>
+                            <p class="hashtag">#tech</p>
+                        </div>
+                        <p class="description-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, autem provident quia ad
+                            blanditiis fugit eaque doloremque similique quam necessitatibus porro, assumenda nostrum
+                            voluptatem.
+                            Odio harum aut possimus ea laudantium.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="single-quote">
+                <p class="quote">"Last year, the market witnessed a real fever" of land, pushing up the land price level
+                    to a very high level"</p>
+                <div>
+                    <p class="quote-autor">Donald Mills</p>
+                    <p class="mananger">Mananger</p>
+                </div>
+            </section>
+            <section class="last-article">
+                <div class="basic-image">
+                    <img src="" alt="">
+                </div>
+                <div class="description-container">
+                    <h2 class="image-title">9 Treasury ETFs for a Volatile Market</h2>
+                    <div class="description">
+                        <div class="description-title">
+                            <div class="simple-image"><img src="" alt=""></div>
+                            <p class=" name-autor">Russell Yates</p>
+                            <p class="date">february 17, 2019</p>
+                            <p class="hashtag">#tech</p>
+                        </div>
+                        <p class="description-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, autem provident quia ad
+                            blanditiis fugit eaque doloremque similique quam necessitatibus porro, assumenda nostrum
+                            voluptatem.
+                            Odio harum aut possimus ea laudantium.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="buttom-section">
+                <a class="bottom-buttom" href="">Load more</a>
+            </div>
+        </section>
+
+    </div>
+    <section class="instagram-images">
+        <div class="img-ins">
+            <div class="image-1"><img src="" alt=""></div>
+            <div class="image-2"><img src="" alt=""></div>
+            <div class="image-3"><img src="" alt=""></div>
+            <div class="image-4"><img src="" alt=""></div>
+            <div class="image-5"><img src="" alt=""></div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="quick-link">
+            <div class="title-footer">Quick Link</div>
+            <a href="">News</a>
+            <a href="">Agency</a>
+            <a href="">Store</a>
+            <a href="">Grid</a>
+        </div>
+        <div class="information">
+            <div class="title-footer">Information</div>
+            <a href="">Home</a>
+            <a href="">Features</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="contact-us">
+            <div class="title-footer">Contact Us</div>
+            <div class="adress">
+                <p>72 Kangnam, 45 Opal Point Suite 391, UK</p>
+            </div>
+            <div class="email-footer">
+                <p>contact@pisen.com</p>
+            </div>
+            <div class="icons-footer">
+                <a href=""><img src="/img/facebook.png" alt="facebook-logo"></a>
+                <a href=""><img src="/img/twitter.png" alt="twitter-logo"></a>
+                <a href=""><img src="/img/instagram.png" alt="instagram-logo"></a>
+                <a href="" target="_blank"><img src="/img/dribbble-logo.png" alt="dribbble-logo"></a>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="title-footer">Subscribe to Our Mailing List</div>
+            <div class="footer-subscribe-input">
+                <input class="input" type="text" placeholder="Enter your Email">
+                <img src="./img/paper-plane.png" alt="" srcset="">
+            </div>
+            <div class="checkbox-section">
+                <input type="checkbox" name="" id="">
+                <p class="checkbox-text">I've read and accept the Privacy Policy</p>
+            </div>
+            <div>
+                <p>Copyright &copy; Pisen Blog</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/carousel.js"></script>
+
 </body>
+
 </html>
